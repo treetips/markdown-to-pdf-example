@@ -4,7 +4,7 @@ on: push
 jobs:
   lint:
     name: Create PDF
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -15,7 +15,7 @@ jobs:
       - run: |
           node -v
           npm install --production
-          node ./src/index.js
+          npm run build
       - uses: actions/upload-artifact@v1
         with:
           name: create-pdf
