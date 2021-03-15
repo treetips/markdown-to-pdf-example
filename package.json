@@ -1,13 +1,14 @@
 {
   "name": "markdown-to-pdf-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Markdown to PDF",
   "main": "index.js",
   "scripts": {
+    "start": "md-to-pdf ./README.md --devtools --stylesheet ./static/styles/style.css",
+    "build": "md-to-pdf ./README.md --stylesheet ./static/styles/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "treetips",
   "license": "ISC",
   "dependencies": {
     "md-to-pdf": "^3.3.1"
