@@ -1,16 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+font-family: "Noto Sans JP", sans-serif;
+
 .red {
-    color: red;
-  }
-  .blue {
-    color: blue;
-  }
-  header {
-    margin: 0 auto;
-    font-family: system-ui;
-    font-size: 11px;
-  }
-  footer {
-    margin: 0 auto;
-    font-family: system-ui;
-    font-size: 11px;
-  }
+  color: red;
+}
+.blue {
+  color: blue;
+}
+header {
+  margin: 0 auto;
+  font-family: system-ui;
+  font-size: 11px;
+}
+footer {
+  margin: 0 auto;
+  font-family: system-ui;
+  font-size: 11px;
+}
