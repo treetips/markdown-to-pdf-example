@@ -1,0 +1,16 @@
+.red {
+    color: red;
+  }
+  .blue {
+    color: blue;
+  }
+  header {
+    margin: 0 auto;
+    font-family: system-ui;
+    font-size: 11px;
+  }
+  footer {
+    margin: 0 auto;
+    font-family: system-ui;
+    font-size: 11px;
+  }
